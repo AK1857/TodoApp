@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Hello Todo app Live </h1>
+        <h1>Todo app Live </h1>
       </header>
       <Form
         inputText={inputText}
