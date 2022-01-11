@@ -1,6 +1,6 @@
 {
   "name": "todoapp",
-    "homepage": "http://AK1857.github.io/TodoApp.github",
+    "homepage": "http://AK1857.github.io/TodoApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
