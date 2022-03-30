@@ -1,29 +1,32 @@
-import React from "react"
+import React from "react";
 
-const Form =({setInputText,todos,setTodos,inputText,setStatus})=>
-{
-    const inputTextHandler=(e)=>{
-        setInputText(e.target.value);
-    };
+const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
+  const inputTextHandler = (e) => {
+    setInputText(e.target.value);
+  };
 
-    const submitTodoHandler=(e)=>{
-      
-        setTodos([
-            ...todos,{text:inputText,completed:false,id:Math.random()*1000}
-        ]);
+  const submitTodoHandler = (e) => {
+    setTodos([
+      ...todos,
+      { text: inputText, completed: false, id: Math.random() * 1000 },
+    ]);
 
-          e.preventDefault();
-          setInputText(""); 
-    };
+    e.preventDefault();
+    setInputText("");
+  };
 
-
-    const statusHandler=(e)=>{
-        setStatus(e.target.value);
-    }
-    return(
-      
+  const statusHandler = (e) => {
+    setStatus(e.target.value);
+  };
+  return (
     <form>
-      <input value={inputText} onChange={inputTextHandler} type="text" class="todo-input" />
+      <input
+        value={inputText}
+        onChange={inputTextHandler}
+        type="text"
+        class="todo-input"
+        placeholder="Put your work"
+      />
       <button onClick={submitTodoHandler} class="todo-button" type="submit">
         <i class="fas fa-plus-square"></i>
       </button>
@@ -35,7 +38,7 @@ const Form =({setInputText,todos,setTodos,inputText,setStatus})=>
         </select>
       </div>
     </form>
-    )
-}
+  );
+};
 
 export default Form;

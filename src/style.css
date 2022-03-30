@@ -1,11 +1,11 @@
-Skip to content
+/* Skip to content
 Search or jump to…
 Pull requests
 Issues
 Marketplace
 Explore
  
-@AK1857 
+
 developedbyed
 /
 vanilla-todo
@@ -26,8 +26,8 @@ developedbyed vanilla todo
 Latest commit 7c215f0 on Aug 28, 2020
  History
  0 contributors
-139 lines (130 sloc)  2.03 KB
-   
+139 lines (130 sloc)  2.03 KB */
+
 * {
   margin: 0;
   padding: 0;
@@ -161,22 +161,16 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
+
+.bg-success {
+  background-color: lightgreen;
+}
+.bg-danger {
+  background-color: red;
+}
 /* Transition */
 /*
 .select:hover::after {
   transform: scale(1.5);
 }
 */
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
