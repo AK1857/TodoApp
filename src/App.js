@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 import Form from "./components/Form";
@@ -32,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Todo app Live </h1>
+        <h1>Todo List</h1>
       </header>
       <Form
         inputText={inputText}
