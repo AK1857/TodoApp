@@ -1,7 +1,7 @@
 {
   "name": "todoapp",
   "homepage": "http://AK1857.github.io/TodoApp",
-  "version": "16.13.1",
+  "version": "6.14.4",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,7 +10,7 @@
     "env-cmd": "^10.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
